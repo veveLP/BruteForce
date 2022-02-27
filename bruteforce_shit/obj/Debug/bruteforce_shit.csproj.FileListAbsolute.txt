@@ -8,3 +8,14 @@ C:\Users\simon.k\Source\Repos\BruteForce\bruteforce_shit\obj\Debug\bruteforce_sh
 C:\Users\simon.k\Source\Repos\BruteForce\bruteforce_shit\obj\Debug\bruteforce_shit.csproj.CoreCompileInputs.cache
 C:\Users\simon.k\Source\Repos\BruteForce\bruteforce_shit\obj\Debug\bruteforce_shit.exe
 C:\Users\simon.k\Source\Repos\BruteForce\bruteforce_shit\obj\Debug\bruteforce_shit.pdb
+C:\Users\vevePC\Source\Repos\BruteForce\bruteforce_shit\obj\Debug\bruteforce_shit.csproj.AssemblyReference.cache
+C:\Users\vevePC\Source\Repos\BruteForce\bruteforce_shit\obj\Debug\bruteforce_shit.csproj.SuggestedBindingRedirects.cache
+C:\Users\vevePC\Source\Repos\BruteForce\bruteforce_shit\obj\Debug\bruteforce_shit.Bruteforce.resources
+C:\Users\vevePC\Source\Repos\BruteForce\bruteforce_shit\obj\Debug\bruteforce_shit.Properties.Resources.resources
+C:\Users\vevePC\Source\Repos\BruteForce\bruteforce_shit\obj\Debug\bruteforce_shit.csproj.GenerateResource.cache
+C:\Users\vevePC\Source\Repos\BruteForce\bruteforce_shit\obj\Debug\bruteforce_shit.csproj.CoreCompileInputs.cache
+C:\Users\vevePC\Source\Repos\BruteForce\bruteforce_shit\obj\Debug\bruteforce_shit.exe
+C:\Users\vevePC\Source\Repos\BruteForce\bruteforce_shit\obj\Debug\bruteforce_shit.pdb
+C:\Users\vevePC\Source\Repos\BruteForce\bruteforce_shit\bin\Debug\bruteforce_shit.exe.config
+C:\Users\vevePC\Source\Repos\BruteForce\bruteforce_shit\bin\Debug\bruteforce_shit.exe
+C:\Users\vevePC\Source\Repos\BruteForce\bruteforce_shit\bin\Debug\bruteforce_shit.pdb
