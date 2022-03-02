@@ -46,17 +46,19 @@ namespace bruteforce_shit
         
         private void calc()
         {
+            long pswd = 0;
             long numb = (long)numericUpDown1.Value;
             for (i = 0; i < 9999999999999999; i++)
             {
                 if (i == numb) 
-                { 
+                {
+                    pswd=i;
                     timerRunTime.Stop();
                     if (runTime < 1) { buttonStart.BackColor = Color.Red; }
                     else if (runTime < 2) { buttonStart.BackColor = Color.Orange; }
                     else if (runTime < 8) { buttonStart.BackColor = Color.Blue; }
                     else if (runTime > 10) { buttonStart.BackColor = Color.Green; }
-                    MessageBox.Show("//we have found the password\n runtime: " + runTime.ToString() + "s", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("//we have found the password\nyour password: "+pswd+"\nruntime: " + runTime.ToString() + "s", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     runTime = 0;
                     return; 
                 } 

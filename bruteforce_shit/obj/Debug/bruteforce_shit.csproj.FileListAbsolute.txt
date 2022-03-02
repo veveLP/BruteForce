@@ -29,3 +29,13 @@ C:\Users\simon.k\Source\Repos\randomaaaa\bruteforce_shit\obj\Debug\bruteforce_sh
 C:\Users\simon.k\Source\Repos\randomaaaa\bruteforce_shit\obj\Debug\bruteforce_shit.csproj.CoreCompileInputs.cache
 C:\Users\simon.k\Source\Repos\randomaaaa\bruteforce_shit\obj\Debug\bruteforce_shit.exe
 C:\Users\simon.k\Source\Repos\randomaaaa\bruteforce_shit\obj\Debug\bruteforce_shit.pdb
+C:\Users\simon.kolacka\Source\Repos\BruteForceBabyy\bruteforce_shit\bin\Debug\bruteforce_shit.exe.config
+C:\Users\simon.kolacka\Source\Repos\BruteForceBabyy\bruteforce_shit\bin\Debug\bruteforce_shit.exe
+C:\Users\simon.kolacka\Source\Repos\BruteForceBabyy\bruteforce_shit\bin\Debug\bruteforce_shit.pdb
+C:\Users\simon.kolacka\Source\Repos\BruteForceBabyy\bruteforce_shit\obj\Debug\bruteforce_shit.csproj.AssemblyReference.cache
+C:\Users\simon.kolacka\Source\Repos\BruteForceBabyy\bruteforce_shit\obj\Debug\bruteforce_shit.Bruteforce.resources
+C:\Users\simon.kolacka\Source\Repos\BruteForceBabyy\bruteforce_shit\obj\Debug\bruteforce_shit.Properties.Resources.resources
+C:\Users\simon.kolacka\Source\Repos\BruteForceBabyy\bruteforce_shit\obj\Debug\bruteforce_shit.csproj.GenerateResource.cache
+C:\Users\simon.kolacka\Source\Repos\BruteForceBabyy\bruteforce_shit\obj\Debug\bruteforce_shit.csproj.CoreCompileInputs.cache
+C:\Users\simon.kolacka\Source\Repos\BruteForceBabyy\bruteforce_shit\obj\Debug\bruteforce_shit.exe
+C:\Users\simon.kolacka\Source\Repos\BruteForceBabyy\bruteforce_shit\obj\Debug\bruteforce_shit.pdb
