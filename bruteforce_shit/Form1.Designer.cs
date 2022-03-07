@@ -51,9 +51,10 @@ namespace bruteforce_shit
             // 
             this.progressBar1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.progressBar1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.progressBar1.Location = new System.Drawing.Point(122, 304);
+            this.progressBar1.Location = new System.Drawing.Point(180, 358);
+            this.progressBar1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(305, 11);
+            this.progressBar1.Size = new System.Drawing.Size(407, 14);
             this.progressBar1.TabIndex = 0;
             // 
             // buttonStart
@@ -61,9 +62,10 @@ namespace bruteforce_shit
             this.buttonStart.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.buttonStart.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.buttonStart.ForeColor = System.Drawing.Color.White;
-            this.buttonStart.Location = new System.Drawing.Point(212, 261);
+            this.buttonStart.Location = new System.Drawing.Point(296, 304);
+            this.buttonStart.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonStart.Name = "buttonStart";
-            this.buttonStart.Size = new System.Drawing.Size(125, 37);
+            this.buttonStart.Size = new System.Drawing.Size(167, 46);
             this.buttonStart.TabIndex = 2;
             this.buttonStart.Text = "BruteForce";
             this.buttonStart.UseVisualStyleBackColor = false;
@@ -75,9 +77,10 @@ namespace bruteforce_shit
             this.labelYourPswd.BackColor = System.Drawing.Color.Transparent;
             this.labelYourPswd.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.labelYourPswd.ForeColor = System.Drawing.Color.White;
-            this.labelYourPswd.Location = new System.Drawing.Point(32, 77);
+            this.labelYourPswd.Location = new System.Drawing.Point(63, 84);
+            this.labelYourPswd.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelYourPswd.Name = "labelYourPswd";
-            this.labelYourPswd.Size = new System.Drawing.Size(138, 24);
+            this.labelYourPswd.Size = new System.Drawing.Size(176, 29);
             this.labelYourPswd.TabIndex = 3;
             this.labelYourPswd.Text = "your password:";
             // 
@@ -87,9 +90,10 @@ namespace bruteforce_shit
             this.labelMadeBy.BackColor = System.Drawing.Color.Transparent;
             this.labelMadeBy.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.labelMadeBy.ForeColor = System.Drawing.Color.White;
-            this.labelMadeBy.Location = new System.Drawing.Point(424, 59);
+            this.labelMadeBy.Location = new System.Drawing.Point(635, 24);
+            this.labelMadeBy.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelMadeBy.Name = "labelMadeBy";
-            this.labelMadeBy.Size = new System.Drawing.Size(86, 52);
+            this.labelMadeBy.Size = new System.Drawing.Size(108, 68);
             this.labelMadeBy.TabIndex = 4;
             this.labelMadeBy.Text = "//made by \r\n//kolackasimon\r\n//houzarlukas\r\n//kristofcakrobin";
             // 
@@ -99,9 +103,10 @@ namespace bruteforce_shit
             this.labelRunTime.BackColor = System.Drawing.Color.Transparent;
             this.labelRunTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.labelRunTime.ForeColor = System.Drawing.Color.White;
-            this.labelRunTime.Location = new System.Drawing.Point(33, 190);
+            this.labelRunTime.Location = new System.Drawing.Point(96, 221);
+            this.labelRunTime.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelRunTime.Name = "labelRunTime";
-            this.labelRunTime.Size = new System.Drawing.Size(56, 16);
+            this.labelRunTime.Size = new System.Drawing.Size(75, 20);
             this.labelRunTime.TabIndex = 5;
             this.labelRunTime.Text = "run time:";
             // 
@@ -115,14 +120,15 @@ namespace bruteforce_shit
             this.numericUpDown1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.numericUpDown1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.numericUpDown1.ForeColor = System.Drawing.Color.White;
-            this.numericUpDown1.Location = new System.Drawing.Point(198, 78);
+            this.numericUpDown1.Location = new System.Drawing.Point(273, 81);
+            this.numericUpDown1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.numericUpDown1.Maximum = new decimal(new int[] {
             1874919424,
             2328306,
             0,
             0});
             this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(161, 27);
+            this.numericUpDown1.Size = new System.Drawing.Size(215, 32);
             this.numericUpDown1.TabIndex = 6;
             // 
             // labelVysvetlivky
@@ -131,9 +137,10 @@ namespace bruteforce_shit
             this.labelVysvetlivky.BackColor = System.Drawing.Color.Transparent;
             this.labelVysvetlivky.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.labelVysvetlivky.ForeColor = System.Drawing.Color.White;
-            this.labelVysvetlivky.Location = new System.Drawing.Point(424, 212);
+            this.labelVysvetlivky.Location = new System.Drawing.Point(635, 253);
+            this.labelVysvetlivky.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelVysvetlivky.Name = "labelVysvetlivky";
-            this.labelVysvetlivky.Size = new System.Drawing.Size(82, 52);
+            this.labelVysvetlivky.Size = new System.Drawing.Size(105, 68);
             this.labelVysvetlivky.TabIndex = 7;
             this.labelVysvetlivky.Text = "//red=superbad\r\n//orange=bad\r\n//blue=good\r\n//green=nice";
             // 
@@ -141,9 +148,10 @@ namespace bruteforce_shit
             // 
             this.pictureBoxQuestionMark.BackColor = System.Drawing.Color.Transparent;
             this.pictureBoxQuestionMark.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxQuestionMark.Image")));
-            this.pictureBoxQuestionMark.Location = new System.Drawing.Point(496, 275);
+            this.pictureBoxQuestionMark.Location = new System.Drawing.Point(706, 325);
+            this.pictureBoxQuestionMark.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBoxQuestionMark.Name = "pictureBoxQuestionMark";
-            this.pictureBoxQuestionMark.Size = new System.Drawing.Size(28, 34);
+            this.pictureBoxQuestionMark.Size = new System.Drawing.Size(37, 42);
             this.pictureBoxQuestionMark.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxQuestionMark.TabIndex = 8;
             this.pictureBoxQuestionMark.TabStop = false;
@@ -156,9 +164,10 @@ namespace bruteforce_shit
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(497, 282);
+            this.label1.Location = new System.Drawing.Point(708, 334);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(28, 42);
+            this.label1.Size = new System.Drawing.Size(36, 54);
             this.label1.TabIndex = 9;
             this.label1.Text = ".";
             // 
@@ -168,28 +177,33 @@ namespace bruteforce_shit
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(12, 20);
+            this.label2.Location = new System.Drawing.Point(63, 28);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(123, 24);
+            this.label2.Size = new System.Drawing.Size(156, 29);
             this.label2.TabIndex = 10;
             this.label2.Text = "your sha-256:";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(141, 25);
+            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.textBox1.ForeColor = System.Drawing.Color.White;
+            this.textBox1.Location = new System.Drawing.Point(273, 24);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(395, 24);
+            this.textBox1.Size = new System.Drawing.Size(215, 33);
             this.textBox1.TabIndex = 11;
             // 
             // Bruteforce
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(540, 330);
+            this.ClientSize = new System.Drawing.Size(756, 393);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBoxQuestionMark);
@@ -203,6 +217,7 @@ namespace bruteforce_shit
             this.Controls.Add(this.progressBar1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "Bruteforce";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

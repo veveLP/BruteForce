@@ -25,8 +25,8 @@ namespace bruteforce_shit
 
         private void buttonStart_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text == "" && (int)numericUpDown1.Value == 0) { MessageBox.Show("Nezadal jsi heslo"); return; }
-            if (textBox1.Text != "" && (int)numericUpDown1.Value != 0) { MessageBox.Show("Nelze zadat hash a heslo!"); return; }
+            if (textBox1.Text == "" && (int)numericUpDown1.Value == 0) { MessageBox.Show("//type your password", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error); return; }
+            if (textBox1.Text != "" && (int)numericUpDown1.Value != 0) { MessageBox.Show("//only one password can be entered at a time", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error); return; }
             if (textBox1.Text != "") { hash = true; }
             else { hash = false; }
             progressBar1.Value = 0;
@@ -70,8 +70,6 @@ namespace bruteforce_shit
             {
                 if (hash) 
                 {
-                    //MessageBox.Show(i.ToString());
-                    //MessageBox.Show(sha256(i.ToString()).ToString());
                     if (sha256(i.ToString()) == textBox1.Text) 
                     {
                         
@@ -129,8 +127,3 @@ namespace bruteforce_shit
         }
     }
 }
-
-    /*int var = Int32.Parse(remain[0].ToString() + remain[1].ToString() + remain[2].ToString() + remain[3].ToString());
-                progressBar1.Value = (int)var;*/
-    //label3.Text = ((int)(i % 1000)).ToString();
-    //label1.Text = (done / 1000000).ToString();
