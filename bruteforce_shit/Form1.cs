@@ -25,8 +25,8 @@ namespace bruteforce_shit
 
         private void buttonStart_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text == "" && (int)numericUpDown1.Value == 0) { MessageBox.Show("//type your password", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error); return; }
-            if (textBox1.Text != "" && (int)numericUpDown1.Value != 0) { MessageBox.Show("//only one password can be entered at a time", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error); return; }
+            if (textBox1.Text == "" && (long)numericUpDown1.Value == 0) { MessageBox.Show("//type your password", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error); return; }
+            if (textBox1.Text != "" && (long)numericUpDown1.Value != 0) { MessageBox.Show("//only one password can be entered at a time", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error); return; }
             if (textBox1.Text != "") { hash = true; }
             else { hash = false; }
             progressBar1.Value = 0;
@@ -107,7 +107,9 @@ namespace bruteforce_shit
             runTime++;
             labelRunTime.Text = "run time: " + runTime.ToString() + "s";
             long numb = (long)numericUpDown1.Value;
-            progressBar1.Value = (int)((100 * i) / Math.Exp(20));
+            if(hash) { progressBar1.Value = (int)((100 * i) / Math.Exp(20)); }
+            else { progressBar1.Value = (int)((100 * i) / numb); }
+            
             String remain = i.ToString();
             for (int i = remain.Length; i <= numb.ToString().Length; i++) { remain = "0" + remain; }
         }
